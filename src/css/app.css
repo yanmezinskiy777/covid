@@ -1,0 +1,25 @@
+.virus {
+  animation: virus 3s linear infinite;
+}
+
+@keyframes virus {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* .video div {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+} */
+@media (max-width: 700px) {
+  .video div iframe {
+    width: 320px;
+    height: 190px;
+  }
+}
