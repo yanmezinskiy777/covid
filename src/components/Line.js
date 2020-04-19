@@ -17,7 +17,7 @@ const Line = React.memo(() => {
       const confirmed = [];
       const deaths = [];
       data.forEach((item) => {
-        dates.push(item.totalConfirmed);
+        dates.push(item.reportDate);
         confirmed.push(item.totalConfirmed);
         deaths.push(item.deaths.total);
       });
