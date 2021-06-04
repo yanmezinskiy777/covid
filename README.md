@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is Funny learning project. Covid tracker get content from free API.
 
 ## Available Scripts
 
